@@ -1,74 +1,85 @@
-/* styling the body */
+/* styles the body */
 body{
-    z-index: 1;
-    background-color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: auto;
-    height: auto;
-    display: block;
-    margin: auto;
-    grid-template-columns: auto;
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(36, 199, 199);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+    margin: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
-/* heading styling */
 h1{
-    text-align:center;
-}
-
-/* makes our website more responsive */
-@media only screen and (min-width: 775px) {
-  .ap-container{
-    grid-template-columns: auto;
-  }
-}
-
-@media only screen and (max-width: 710px) {
-  
-}
-
-
-
-/* griding layout */
-.grid-item{
-    display: grid;
-    text-align:end;
-    z-index: 0;
-    font-size: 17px;
-  }
-
-/* grid hover style */
-  .grid-item:hover {
-    text-shadow: black;
-    font-size: 18px;
-    font-weight: 400;
-  }
-/* The container for the ap */
-.ap-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-/* The induvidual image */
-.ap-item{
-    padding: 20px;
-    font-size: 24px;
+    font-weight: 600;
     text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
-/* The Labeling of the AP */
-.AP-label{
-  width: 300px;
-  color: rgb(97, 56, 56);
-  border: 3px solid rgb(43, 93, 187);
-  border-radius: 25px;
+/* styles the mouse table  */
+.mouses{
+    display: flex;
+    justify-content: center;
 }
-/* Styling when you hover the label */
-.AP-label:hover{
-    font-size: 27px;
+tbody{
+    margin-top: 1%;
+    background-color: rgb(43, 167, 167);
+    border-radius: 1%;
 }
-.ap-img{
-    border-radius: 25px;
-    max-width: 100%;
-    display: block;
+/* styles the inner tables */
+th {
+    background-color: #1d7eaa;
+    border-radius: 5%;
+    }
+th,
+td {
+text-align: left;
+padding: 0.5em 1em;
+border
 }
-.ap-img:hover {
-    width: 320px;
-    height: 210px;
+/* the question on the left */
+.question{
+    font-weight: 600;
+    background-color: #1d7eaa;
+    padding-left:10%;    
+}
+/* the section on the right */
+.sidetext{
+    margin-top: -32%;
+    height: 20px;
+    width: 420px;
+    margin-left:3%;
+    font-size: 20px;
+    border-radius: 5%;
+    
+}
+/* the mouse pic on the left */
+.all-mouse{
+    border-radius: 5%;
+}
+/* the second question on the right */
+.question1{
+    font-weight: 600;
+    background-color: #1d7eaa;
+    padding-left:10%;    
+}
+/* the second seciton on the right */
+.sidetext1{
+    margin-top: -2.5%;
+    margin-left: 72%;
+    height: 20px;
+    width: 420px;
+    font-size: 20px;
+    border-radius: 5%;
+    
+}
+/* the mouse image 2 */
+.all-mouse1{
+    border-radius: 5%;
+}
+/* styles the image */
+.thanksgiving{
+    margin-top: -7%;
+    margin-left: 2%;
+    font-size: 30px;
 }
