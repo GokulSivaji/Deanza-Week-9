@@ -1,0 +1,74 @@
+/* styling the body */
+body{
+    z-index: 1;
+    background-color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    grid-template-columns: auto;
+}
+/* heading styling */
+h1{
+    text-align:center;
+}
+
+/* makes our website more responsive */
+@media only screen and (min-width: 775px) {
+  .ap-container{
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  
+}
+
+
+
+/* griding layout */
+.grid-item{
+    display: grid;
+    text-align:end;
+    z-index: 0;
+    font-size: 17px;
+  }
+
+/* grid hover style */
+  .grid-item:hover {
+    text-shadow: black;
+    font-size: 18px;
+    font-weight: 400;
+  }
+/* The container for the ap */
+.ap-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+/* The induvidual image */
+.ap-item{
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+/* The Labeling of the AP */
+.AP-label{
+  width: 300px;
+  color: rgb(97, 56, 56);
+  border: 3px solid rgb(43, 93, 187);
+  border-radius: 25px;
+}
+/* Styling when you hover the label */
+.AP-label:hover{
+    font-size: 27px;
+}
+.ap-img{
+    border-radius: 25px;
+    max-width: 100%;
+    display: block;
+}
+.ap-img:hover {
+    width: 320px;
+    height: 210px;
+}
